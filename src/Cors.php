@@ -1,10 +1,4 @@
 <?php
-/**
- * Description of this file
- *
- * @author  史强 <qshi@suntekcorps.com>
- * @date    2020/1/22 14:04
- */
 
 namespace Twitf\Cors;
 
