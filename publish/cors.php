@@ -34,10 +34,5 @@ return [
         'Pragma',
     ],
 
-    'forbidden_response' => [
-        'message' => 'Forbidden (cors).',
-        'status'  => 403,
-    ],
-
     'max_age' => 60 * 60 * 24
 ];
