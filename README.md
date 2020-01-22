@@ -9,5 +9,5 @@ composer create-project hyperf/component-creater
 ## publish config
 
 ```shell script
-php bin/hyperf.php cors:publish --config
+php bin/hyperf.php vendor:publish twitf/cors
 ```
