@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Twitf\Cors\Middleware;
 
 use Twitf\Cors\Cors;
+use Hyperf\HttpServer\Contract\ResponseInterface as HttpResponse;
 use Hyperf\HttpMessage\Stream\SwooleStream;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
@@ -20,11 +21,11 @@ class CorsMiddleware implements MiddlewareInterface
     protected $cors;
 
     /**
-     * @var ResponseInterface
+     * @var HttpResponse
      */
     protected $response;
 
-    public function __construct(Cors $cors, ResponseInterface $response)
+    public function __construct(Cors $cors, HttpResponse $response)
     {
         $this->cors     = $cors;
         $this->response = $response;
