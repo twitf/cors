@@ -2,6 +2,7 @@
 
 namespace Twitf\Cors;
 
+use Hyperf\Config\Annotation\Value;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
