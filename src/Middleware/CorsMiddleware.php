@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Twitf\Cors\Middleware;
 
 use Twitf\Cors\Cors;
